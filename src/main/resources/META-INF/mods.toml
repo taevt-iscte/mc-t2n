@@ -34,8 +34,7 @@ credits="T&T works" #optional
 authors="T1 & T2" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Described, bitch
-'''
+Described, bitch'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional
     # the modid of the dependency
