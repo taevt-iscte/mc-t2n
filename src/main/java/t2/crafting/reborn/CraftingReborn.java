@@ -20,13 +20,13 @@ import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("craftingreborn")
-public class ExampleMod
+public class CraftingReborn
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MODID = "craftingreborn";
 
-    public ExampleMod() {
+    public CraftingReborn() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
